@@ -44,18 +44,3 @@ The `binary_classification_nlp.py` script performs the following steps:
 ## Performance
 
 The model typically achieves an accuracy of around 88% on the test dataset after training for a few epochs. The exact performance may vary depending on the training parameters and the random initialization of the model.  Overfitting is a common issue, so monitoring the validation loss and adjusting the number of epochs is crucial.
-
-## Addressing CUDA and Qt Issues (Troubleshooting)
-
-When running the script, you might encounter CUDA or Qt-related issues:
-
-*   **CUDA:** If you receive errors indicating that CUDA drivers are not found or that cuDNN/cuFFT/cuBLAS cannot be registered, ensure that you have installed the appropriate NVIDIA drivers and that your TensorFlow version is compatible with your CUDA installation.
-*   **Qt:** Errors related to the Qt platform plugin "xcb" can be resolved by installing the necessary Qt dependencies (e.g., `libxcb-xinerama0`). If problems persist, try changing the Matplotlib backend.
-
-## Contributing
-
-Contributions to this project are welcome! Feel free to submit pull requests with improvements, bug fixes, or new features.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
