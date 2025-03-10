@@ -25,7 +25,7 @@
 4.  **Run the main script:**
 
     ```
-    python src/binary_classification_nlp.py
+    python main.py
     ```
 
     This will train the model on the IMDB dataset, evaluate its performance, and display the results.
